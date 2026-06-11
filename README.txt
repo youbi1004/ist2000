@@ -1,19 +1,28 @@
-# I.S.T Co.,Ltd 홈페이지 파일
+I.S.T 홈페이지 V2 업로드 안내
 
-## 구성
-- index.html
-- style.css
-- assets/logo.png
-- assets/building.png
+GitHub에 올릴 때 ZIP 파일 자체를 올리지 말고,
+압축을 푼 뒤 아래 파일/폴더를 업로드하세요.
 
-## 확인 방법
-압축을 풀고 `index.html`을 더블클릭하면 홈페이지를 바로 볼 수 있습니다.
+필수 구조:
+index.html
+style.css
+assets/
 
-## GitHub Pages 업로드 방법
-1. GitHub에서 새 Repository 생성
-2. 위 파일 전체 업로드
-3. Settings > Pages
-4. Source: Deploy from a branch
-5. Branch: main / root 선택
-6. Custom Domain에 `www.ist2000.co.kr` 입력
-7. 후이즈 DNS에서 CNAME을 GitHub 주소로 연결
+assets 폴더 안:
+logo.png
+hero-building.png
+factory.jpg
+product-battery.png
+product-harness.png
+product-lcd.png
+product-varistor.png
+product-ic.png
+product-cable.png
+
+업로드:
+1. GitHub 저장소 youbi1004/ist2000 접속
+2. 기존 index.html, style.css, assets 폴더를 삭제하거나 덮어쓰기
+3. Add file > Upload files
+4. 압축 푼 파일 전체 업로드
+5. Commit changes
+6. 1~3분 뒤 사이트 새로고침
