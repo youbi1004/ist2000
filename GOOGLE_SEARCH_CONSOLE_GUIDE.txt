@@ -1,0 +1,11 @@
+Google Search Console 등록 안내
+
+1. Google Search Console에서 속성 추가
+   - URL prefix 방식 권장: https://www.ist2000.co.kr/
+2. 소유권 확인 방식에서 HTML 태그를 선택
+3. 아래와 같은 태그를 복사
+   <meta name="google-site-verification" content="발급받은_코드">
+4. index.html, en.html의 <head> 안에 있는 주석 위치에 붙여넣기
+5. GitHub에 다시 업로드 후 확인 클릭
+
+현재 V5에는 네이버 인증 태그와 네이버 인증 HTML 파일이 포함되어 있습니다.
